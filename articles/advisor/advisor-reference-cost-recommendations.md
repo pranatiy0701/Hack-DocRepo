@@ -140,6 +140,12 @@ Learn more about [Virtual network gateway - IdleVNetGateway (Repurpose or delete
 
 ## Recovery Services
 
+### Enable Smart Tiering for Azure Backup Vault-Archive Tier
+
+Enable Smart Tiering for your backups to Vault-Archive Tier to reduce your costs and save costs. This will help you move your long-term backups to vault-archive tier.  
+
+Learn more about [Azure Backup Vault - Archive Tier](https://learn.microsoft.com/en-us/azure/backup/use-archive-tier-support)
+
 ### Use differential or incremental backup for database workloads
 
 For SQL/HANA DBs in Azure VMs being backed up to Azure, using daily differential with weekly full backup is often more cost-effective than daily fully backups. For HANA, Azure Backup also supports incremental backup which is even more cost effective
