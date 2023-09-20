@@ -63,6 +63,12 @@ We recommend configuring the Azure Front Door customer certificate secret to ‘
 Learn more about [Front Door Profile - SwitchVersionBYOC (Switch Secret version to ‘Latest’ for the Azure Front Door customer certificate)](/azure/frontdoor/standard-premium/how-to-configure-https-custom-domain#certificate-renewal-and-changing-certificate-types).
 ## Compute
 
+### Migrate to ZRS Disks for Increased Resiliency
+
+Use ZRS to increase resiliency of Azure Disks by replicating data across 3 Availability Zones for fault tolerance. Each Zone has separate power, cooling, and networking, so data remains available if one zone is compromised. Design your solutions to use ZRS Disks for critical workloads.
+
+Learn more about [ZRS Disks](https://aka.ms/zrsdisksdoc)
+
 ### Migrate Virtual Machines to Availability Zones
 
 By migrating virtual machines to Availability Zones, you can ensure the isolation of your VMs from potential failures in other zones. With this, you can expect enhanced resiliency in your workload by avoiding downtime and business interruptions. 
